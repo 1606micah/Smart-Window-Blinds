@@ -14,10 +14,8 @@ typedef struct struct_message {
     int blind_status;
 } struct_message;
 
-// Create a struct_message called myData
 struct_message myData;
 
-// callback function that will be executed when data is received
 void OnDataRecv(const esp_now_recv_info *info, const uint8_t *incomingData, int len) {
     if (len == sizeof(myData)) {
         memcpy(&myData, incomingData, sizeof(myData));
