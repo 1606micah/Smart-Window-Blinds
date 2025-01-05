@@ -1,1 +1,1 @@
-# Smart-Window-Blinds
+I created an automated window blind mechanism powered by a stepper motor and an ESP32 microcontroller, with a relay integrated to ensure efficient power consumption. To enable real-time interaction, I established wireless communication between two ESP32 devices using the ESP-NOW protocol and incorporated a touch sensor for user input. The system was further connected to a personalized smart home server via ESPHome, allowing for localized control and effortless integration with existing smart home setups.
